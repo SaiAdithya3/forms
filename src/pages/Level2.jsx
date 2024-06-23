@@ -12,7 +12,9 @@ const Level2 = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gray-100 flex flex-col gap-8 items-center justify-center">
+      <h1 className='text-3xl w-full px-20 text-center font-semibold'> Job Application Form</h1>
+
       <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-lg">
         <InputField
           id="fullName"

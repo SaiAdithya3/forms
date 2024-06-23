@@ -13,7 +13,7 @@ const Level1 = () => {
 
   return (
     <div className="min-h-screen bg-zinc-100 w-full flex flex-col gap-10 items-center py-28">
-      <h1 className='text-3xl w-full px-20 text-start font-semibold'>Event Registration Form</h1>
+      <h1 className='text-3xl w-full px-20 text-center font-semibold'>Event Registration Form</h1>
       <EventRegistrationForm
         values={values}
         errors={errors}
